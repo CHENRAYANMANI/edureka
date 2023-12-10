@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.outerlogo {
+  background-color: red;
+  height: 50px;
+}
+.innerlogo1 {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  position: relative;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 23px;
+  background-color: white;
+  position: absolute;
+  top: 4px;
+  color: blue;
+  padding: 5px;
+  cursor: pointer;
+}
+.outerbox {
+  display: flex;
+  gap: 30px;
+  border: 2px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.box {
+  border: 2px solid blue;
+  padding: 10px;
+}
+.olddelete {
+  background-color: aqua;
+  color: white;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}

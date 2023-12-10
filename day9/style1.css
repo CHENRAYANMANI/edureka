@@ -1,0 +1,73 @@
+.flex-containe1,
+.flex-containe2 {
+  border: 2px solid black;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-containe1 {
+  justify-content: space-around;
+}
+.flec-child {
+  height: 100%;
+  width: 120px;
+  background-color: red;
+}
+.flex-containe2-child1 {
+  height: 100%;
+  width: 50px;
+  background-color: lightskyblue;
+}
+.flex-containe2-child2 {
+  height: 50%;
+  width: 150px;
+  background-color: green;
+}
+.flex-containe2-child3 {
+  height: 70%;
+  width: 50px;
+  background-color: yellow;
+}
+.flex-containe2-child4 {
+  height: 80%;
+  width: 20px;
+  background-color: purple;
+}
+.flex-containe2-child5 {
+  height: 60%;
+  width: 120px;
+  background-color: orange;
+}
+.wraper-continer {
+  border: 2px solid orangered;
+}
+.wraper-continer-child {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  border: 2px solid dodgerblue;
+  padding: 1rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.wraper-continer-child-div1 {
+  background-color: red;
+  width: 30%;
+}
+.wraper-continer-child-div2 {
+  background-color: blue;
+  width: 30%;
+}
+.wraper-continer-child-div3 {
+  background-color: orange;
+  width: 30%;
+}
+.wraper-continer-child-div4 {
+  background-color: green;
+  width: 47%;
+}
+.wraper-continer-child-div5 {
+  background-color: brown;
+  width: 47%;
+}

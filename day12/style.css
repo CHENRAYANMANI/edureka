@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+.bg {
+  border: 1px solid black;
+}
+.bottom {
+  width: 90%;
+  margin: auto;
+}

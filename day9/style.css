@@ -1,0 +1,61 @@
+.continer {
+  position: relative;
+  width: 250px;
+  height: 150px;
+  margin: auto;
+  border: 1px solid black;
+}
+.box {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border: 1px solid red;
+}
+.box1 {
+  top: 0px;
+  left: 0px;
+}
+.box2 {
+  top: 0px;
+  right: 0px;
+}
+.box3 {
+  bottom: 0px;
+  right: 0px;
+}
+.box4 {
+  bottom: 0px;
+  left: 0px;
+}
+
+.circle {
+  border: 1px solid green;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+.circle1 {
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+}
+.circle2 {
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  margin: auto;
+}
+.circle3 {
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+}
+.circle4 {
+  top: 128px;
+  bottom: 0px;
+  right: 115px;
+  margin: auto;
+}

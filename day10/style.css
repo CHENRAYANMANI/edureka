@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+}
+
+.continer {
+  background-image: url(./desktop-wallpaper-ware-of-the-week-zomato-zomato.jpg);
+
+  height: 70vh;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+/* .restaurent {
+  width: 50px;
+}
+.city {
+  width: 50px;
+} */
+
+.nav {
+  width: 80%;
+  height: 20px;
+  margin: auto;
+  position: relative;
+  top: 10px;
+  text-align: end;
+}
+
+.login {
+  color: white;
+  text-decoration: none;
+}
+.account {
+  color: white;
+  border: 1px solid white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 55px;
+}
+.logo {
+  margin-bottom: 10px;
+  color: brown;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 12.5px;
+  text-align: center;
+  font-size: 20px;
+}
+.heading {
+  margin-bottom: 10px;
+  color: black;
+  top: 28vh;
+  left: 50vw;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+
+  top: 130px;
+  left: 180px;
+}
+
+.restaurent {
+  margin: 2px;
+}
+.city {
+  margin: 3px;
+}
+
+.bottom-continer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.para {
+  font-size: 16px;
+  font-weight: 600;
+}
+.image {
+  width: 10vw;
+  height: 20vh;
+  float: left;
+  margin-right: 5px;
+}
+.break {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.box {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 2px 2px 2px 2px;
+  font-size: 10px;
+}
+@media (max-width: 500px) {
+  .search {
+    display: flex;
+    flex-direction: column;
+    top: 130px;
+    left: 180px;
+  }
+  .bottom-continer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .bottom-continer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .search,
+  .restaurent {
+    display: block;
+    width: 80%;
+  }
+}
+@media (max-width: 300px) {
+  .nav {
+    width: 80%;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: 10px;
+  }
+}

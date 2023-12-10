@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  background: url(./pxfuel.jpg);
+  width: 100vw;
+  height: 80vh;
+  background-size: 100%;
+}
+.nav-item {
+  color: white;
+}
+.create {
+  border: 2px solid white;
+}
+.heading {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+.logo {
+  color: blue;
+  font-weight: bold;
+  font-size: 50px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  border-radius: 40px;
+  background-color: white;
+  text-align: center;
+}
+
+.city-1 {
+  width: 150px;
+  text-align: center;
+
+  padding: 0px;
+  margin: 1px;
+}
+.restaurent-1 {
+  width: 250px;
+  text-align: center;
+  padding: 0px;
+}
+.center {
+  position: relative;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-fload {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 5px;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+.image-head {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blueviolet;
+  text-shadow: 0 0 4px grey;
+  font-size: 30px;
+}
+.flex {
+  border: 1px solid white;
+  margin-bottom: 10px;
+  box-shadow: 0 0 20px green;
+
+  width: 20px;
+  height: 100px;
+  padding: 5px;
+}
+.qui-search {
+  font-weight: bold;
+  /* margin-left: 280px; */
+  color: blue;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+}
+.discover {
+  /* margin-left: 280px; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+.bg {
+  color: white;
+}

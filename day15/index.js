@@ -1,0 +1,10 @@
+let a = 5;
+let b = 10;
+let c = 15;
+let d = 20;
+let e = 25;
+let message = "hello world";
+let isAlpha = true;
+console.log(a, b, c, d, e);
+console.log(message);
+console.log(isAlpha);
